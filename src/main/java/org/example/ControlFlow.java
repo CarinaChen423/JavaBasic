@@ -2,6 +2,7 @@ package org.example;
 
 public class ControlFlow {
     public static void main(String[] args) {
+
         //comparison operators
         int x=1;
         int y=1;
@@ -11,7 +12,7 @@ public class ControlFlow {
         boolean GoodCredit=true;
         boolean CriminalRecord=false;
         boolean Eligible=(HigIncome||GoodCredit)&&!CriminalRecord;
-//If Statement
+//If Statements
         int temp=32;
         if(temp>30) {
             System.out.println("It's a hot day");
@@ -20,13 +21,11 @@ public class ControlFlow {
         }else
             System.out.println("Cold day");
         }
+
+
+    //Ternary operator
         int income=120000;
-        String className=income>100000?"First":"Economy";
-
-
-
-
-
+        String className=income>100000?"First":"Economy"; //if condition is true>First, otherwise>Economy
 
 
 
